@@ -1,4 +1,4 @@
-﻿<a name="HOLTop"></a>
+<a name="HOLTop"></a>
 # Introduction to Windows 10 IoT Core #
 
 ---
