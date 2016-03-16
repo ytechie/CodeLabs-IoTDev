@@ -118,7 +118,7 @@ In this task, you'll connect to your device and update its name through the web 
 
 	_Change your device name_
 
-	> **Note:** Additionally, you can change the default password with a new one.
+	> **Note:** Additionally, you can change the default password to a new one.
 
 <a name="Ex1Task2"></a>
 #### Task 2 - Using the web interface to configure WiFi  ####
@@ -175,7 +175,7 @@ In this task, you'll use the Universal project template to create a Blank App. T
 
 1. From Solution Explorer, select the **MainPage.xaml** file.
 
-1. Locate the **\<Grid\>** tag within the **XAML** section of the designer, and add the following markup. This will add an input and a button that you'll see in the design surface.
+1. Locate the **\<Grid\>** tag within the **XAML** section of the designer, and add the following markup inside the grid. This will add an input and a button that you'll see in the design surface.
 
 	````XML
 	<StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
@@ -276,7 +276,7 @@ To do this, we'll create a new project.
     using Windows.Devices.Gpio;
     ````
 
-1. Next, add the code to initialize the GPIO controller and pin. The Red LED on the FEZ HAT is connected directly to GPIO 24 on the Raspberry Pi. What this code does is get the default GPIO Controller (which maps to a device driver in Windows), and opens the Red LED Pin for output. I found this out by looking at the [FEZ HAT schematic](http://www.ghielectronics.com/downloads/schematic/FEZ_HAT_SCH.pdf). Finally, it writes a **low** value to the pin to turn the LED off.
+1. Next, add the code to initialize the GPIO controller and pin. The Red LED on the FEZ HAT is connected directly to GPIO 24 on the Raspberry Pi. What this code does is get the default GPIO Controller (which maps to a device driver in Windows), and opens the Red LED Pin for output. This is detailed in the [FEZ HAT schematic](http://www.ghielectronics.com/downloads/schematic/FEZ_HAT_SCH.pdf). Finally, it writes a **low** value to the pin to turn the LED off.
 
 	````C#
     public MainPage()
