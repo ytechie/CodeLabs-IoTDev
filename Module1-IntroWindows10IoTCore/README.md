@@ -80,7 +80,7 @@ Estimated time to complete this module: **60 minutes**
 <a name="Exercise1"></a>
 ### Exercise 1: Connecting and configuring your device ###
 
-The Raspberry Pi will be connected to the development PC through a hard Ethernet connection. This connection is used for deployment and debugging. The WiFi connection will be used for connecting the Raspberry Pi to the Internet.
+The Raspberry Pi will be connected to the development PC through a wired Ethernet connection. This connection is used for deployment and debugging. The WiFi connection will be used for connecting the Raspberry Pi to the Internet.
 
 The **Windows Device Portal** provides basic configuration and device management capabilities, in addition to advanced diagnostic tools to help you troubleshoot and view the real time performance of your Windows IoT Device.
 
